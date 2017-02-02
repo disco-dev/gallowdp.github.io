@@ -74,10 +74,6 @@ h1 {
 
 }
 
-section {
-  height: 885px;
-}
-
 .social-media {
   margin-top: -40px;
   margin-bottom: -40px;
@@ -150,8 +146,7 @@ h3 {
   margin: 30px 0;
 }
 
-#contact {
-  height: 450px;
+#contact, #past-shows {
   text-align: center;
 }
 
@@ -175,9 +170,4 @@ h3 {
 
 .hidden {
   display: none;
-}
-
-.music {
-  position: absolute;
-  top: -2000px;
 }
