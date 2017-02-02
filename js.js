@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('.hideOnLoad').hide();
+	$('.hideOnLoad').hide();
 	$('nav a, a[href="#shows"]').click(function () {
 		var active = $('.section:visible');
 		var newActive = $(this).attr('href');

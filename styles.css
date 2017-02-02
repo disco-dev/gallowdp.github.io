@@ -1,5 +1,5 @@
 body {
-  background: url('https://raw.githubusercontent.com/gallowdp/test/master/dark-suede.png') fixed;
+  background: url('img/dark-suede.png') fixed;
   color: white;
 }
 
@@ -54,15 +54,6 @@ h1 {
   .img-responsive {
     display: none;
   }
-  .project {
-    height: 135px!important;
-    width: 270px!important;
-    font-size: 16px!important;
-    margin: 6px 26px!important;
-  }
-  #tribute {
-    background-size: 40%;
-  }
   .btn-text, .fa {
     font-size: 1em!important;
   }
@@ -80,15 +71,7 @@ h1 {
 
 /* tablet styles */
 @media(max-width: 768px) and (min-width: 481px) {
-  .project {
-    height: 200px!important;
-    width: 200px!important;
-    font-size: 16px!important;
-    margin: 75px 15px!important;
-  }
-  #tribute {
-    background-size: 40%;
-  }
+
 }
 
 section {
@@ -150,6 +133,14 @@ h3 {
   margin-bottom: 15px;
 }
 
+.flyers {
+  border-radius: 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
 .frame {
   margin: 0 auto;
   display: block;
@@ -161,6 +152,7 @@ h3 {
 
 #contact {
   height: 450px;
+  text-align: center;
 }
 
 .list {
@@ -183,4 +175,9 @@ h3 {
 
 .hidden {
   display: none;
+}
+
+.music {
+  position: absolute;
+  top: -2000px;
 }
